@@ -1,6 +1,6 @@
 {
   "name": "@brew-authentication-api/text3-appender-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sample plugin for brew-authentication-api. It appends the \"Text3\" text using appendText method of PluginTestService.",
   "author": "Brew",
   "license": "MIT",
@@ -69,7 +69,11 @@
       "**/*.(t|j)s"
     ],
     "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/../src/$1",
+      "^@brewAuthenticationApi/(.*)$": "<rootDir>/../node_modules/brew-authentication-api/$1"
+    }
   },
   "homepage": "https://bitbucket.org/brewinteractive/brew-authentication-api-sample-plugin#readme"
 }
