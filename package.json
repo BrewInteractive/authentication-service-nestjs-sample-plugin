@@ -2,7 +2,7 @@
   "name": "@brew-authentication-api/text3-appender-plugin",
   "main": "./dist",
   "typings": "./dist",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Sample plugin for brew-authentication-api. It appends the \"Text3\" text using appendText method of PluginTestService.",
   "author": "Brew",
   "license": "MIT",
