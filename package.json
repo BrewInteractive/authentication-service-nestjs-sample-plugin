@@ -2,7 +2,7 @@
   "name": "@brew-authentication-api/text3-appender-plugin",
   "main": "./dist",
   "typings": "./dist",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "Sample plugin for brew-authentication-api. It appends the \"Text3\" text using appendText method of PluginTestService.",
   "author": "Brew",
   "license": "MIT",
@@ -46,7 +46,7 @@
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
-    "brew-authentication-api": "0.0.5",
+    "brew-authentication-api": "^0.0.6",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -61,7 +61,7 @@
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
-    "brew-authentication-api": "0.0.5"
+    "brew-authentication-api": "0.0.6"
   },
   "publishConfig": {
     "registry": "https://www.myget.org/F/brewww/npm/"
