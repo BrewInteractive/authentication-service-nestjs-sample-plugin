@@ -16,7 +16,7 @@ describe("Text3AppenderPlugin", () => {
 
     plugin = module.get<Text3AppenderPlugin>(Text3AppenderPlugin);
     plugin.load();
-    pluginTestService = module.get<PluginTestService>(PluginTestService);
+    pluginTestService = module.get<PluginTestService>("PluginTestService");
   });
 
   it("should be defined", () => {
