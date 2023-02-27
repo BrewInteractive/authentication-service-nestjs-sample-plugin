@@ -1,8 +1,8 @@
 import { Inject, Injectable } from "@nestjs/common";
 
-import { BasePlugin } from "brew-authentication-api/dist/plugin/abstract/base-plugin.plugin";
-import { PluginTestService } from "brew-authentication-api/dist/plugin-test/plugin-test.service";
-import { brewAuthenticationApi } from "../package.json";
+import { BasePlugin } from "@brewww/authentication-service/dist/plugin/abstract/base-plugin.plugin";
+import { PluginTestService } from "@brewww/authentication-service/dist/plugin-test/plugin-test.service";
+import { authenticationService } from "../package.json";
 
 @Injectable()
 export class Text3AppenderPlugin extends BasePlugin {
@@ -10,7 +10,7 @@ export class Text3AppenderPlugin extends BasePlugin {
   private pluginTestService: PluginTestService;
 
   constructor() {
-    super(brewAuthenticationApi);
+    super(authenticationService);
   }
 
   load(): Promise<void> {

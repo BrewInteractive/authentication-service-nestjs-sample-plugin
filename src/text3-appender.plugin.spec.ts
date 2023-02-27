@@ -1,7 +1,7 @@
 import { Test, TestingModule } from "@nestjs/testing";
 
-import { PluginTestModule } from "brew-authentication-api/dist/plugin-test/plugin-test.module";
-import { PluginTestService } from "brew-authentication-api/dist/plugin-test/plugin-test.service";
+import { PluginTestModule } from "@brewww/authentication-service/dist/plugin-test/plugin-test.module";
+import { PluginTestService } from "@brewww/authentication-service/dist/plugin-test/plugin-test.service";
 import { Text3AppenderPlugin } from "./text3-appender.plugin";
 
 describe("Text3AppenderPlugin", () => {
