@@ -1,6 +1,6 @@
 {
   "name": "@brewww/authentication-service-text3-appender-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sample plugin for Brew Authentication Service. It appends the \"Text3\" text using appendText method of PluginTestService.",
   "author": "Brew",
   "license": "MIT",
