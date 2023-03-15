@@ -55,10 +55,8 @@ Add the following line to the `peerDependencies` section in your `package.json` 
 }
 ```
 
-This plugin derives from the `BasePlugin` class found in the `@brewww/authentication-service` package. It injects the `PluginTestService` using `Inject` and adds the text `Text3` inside the `load` function.
+This plugin derives from the `BasePlugin` class found in the `@brewww/authentication-service` package. It appends `Text3`text using `appendText` method of `PluginTestService`. 
 
-  
-  
 
 ## Plugin Instructions
 
